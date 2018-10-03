@@ -32,7 +32,7 @@ install(TARGETS apriltag apriltag_demo
 )
 
 install(DIRECTORY .
-        DESTINATION ${CMAKE_INSTALL_PREFIX}/include/${PROJECT_NAME}/
+        DESTINATION include/${PROJECT_NAME}/
         FILES_MATCHING PATTERN "*.h"
         PATTERN ".git" EXCLUDE
         PATTERN "example" EXCLUDE)
